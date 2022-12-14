@@ -13,3 +13,15 @@ for (var i = 0; i < 30; i++) {
 list.forEach(element => {
     console.log(element);
 });
+
+console.log(list.pop());
+
+list.forEach(element => {
+    console.log(element);
+})
+
+console.log(list.push("Mandy"));
+
+list.forEach(element => {
+    console.log(element);
+})
